@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screen: {
+            large: "789px",
+            larger: "1039px",
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="flex flex-col justify-center items-center rounded-lg bg-emerald-400 h-[500px] w-[24%] mx-auto shadow-black gap-5">
+        <div class="mt-[] mx-auto rounded-lg w-[97%] h-[60px] border bg-white">
+            <div class="text-5xl float-right">0</div>
+        </div>
+        <div class="grid grid-cols-4 gap-2">
+            <div id="seven" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">7</div>
+            <div id="eight" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">8</div>
+            <div id="nine" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">9</div>
+            <div id="star" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">*</div>
+            <div id="four" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">4</div>
+            <div id="five" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">5</div>
+            <div id="six" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">6</div>
+            <div id="minus" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">-</div>
+            <div id="one" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">1</div>
+            <div id="two" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">2</div>
+            <div id="three" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">3</div>
+            <div id="plus" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">+</div>
+            <div id="cee" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">c</div>
+            <div id="zero" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">0</div>
+            <div id="equals" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">=</div>
+            <div id="slash" class="bg-white h-[55px] w-[70px] rounded-lg flex justify-center items-center text-2xl">/</div>
+        </div>
+        <div class="text-white font-[courgette] text-5xl">New Tech</div>
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+</html>
