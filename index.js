@@ -13,10 +13,9 @@ function clr(){
     document.getElementById("result").value = ""
 }
 
-function remove(){
-    document.getElementById("result").value.length-1
-}
 
 function del(){
-    document.getElementById("result").value = '' //remove()
+    const inputValue = document.getElementById("result").value;
+    result = inputValue[-1]
+    document.getElementById("result").value = result
 }
