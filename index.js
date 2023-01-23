@@ -14,8 +14,14 @@ function clr(){
 }
 
 
+// function del(){
+//     const inputValue = document.getElementById("result").value;
+//     result = inputValue.splice(-1,1)
+//     document.getElementById("result").value = inputValue[-1]
+// }
+
 function del(){
     const inputValue = document.getElementById("result").value;
-    result = inputValue[-1]
-    document.getElementById("result").value = result
+    result = inputValue.slice(0,-1)
+    document.getElementById("result").value = result;
 }
